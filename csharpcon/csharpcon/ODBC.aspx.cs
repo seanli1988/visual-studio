@@ -34,7 +34,6 @@ namespace csharpcon
             GridView1.DataSource = dataSet.Tables[0];
             GridView1.DataBind();
             
-
             MyConnection.Close();
         }
     }
