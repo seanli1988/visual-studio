@@ -10,28 +10,14 @@ namespace driver
 {
     class MySQLCreate
     {
-        // Obtain connection string information from the portal
-        //
-        private static string Host = "mypgserver-20170401.postgres.database.azure.com";
-        private static string User = "mylogin@mypgserver-20170401";
-        private static string DBname = "mypgsqldb";
-        private static string Password = "<server_admin_password>";
-        private static string Port = "5432";
 
         static void Main(string[] args)
         {
-            // Build connection string using parameters from portal
-            //
-            string connString =
-                String.Format(
-                    "Server={0}; User Id={1}; Database={2}; Port={3}; Password={4};",
-                    Host,
-                    User,
-                    DBname,
-                    Port,
-                    Password);
 
-            var conn = new OdbcConnection("DRIVER={MySQL ODBC 5.3 unicode Driver}; Server=seal-db1.mysql.database.azure.com; Port=3306; Database=employees; Uid=sean@seal-db1; Pwd=Insignia1103; sslverify=0; Option=3;MULTI_STATEMENTS=1");
+            var conn = new OdbcConnection("DRIVER={MySQL ODBC 5.3 unicode Driver}; Server=seal-db1.mysql.database.azure.com; Port=3306;" +
+                "Database=employees; Uid=sean@seal-db1; Pwd=Insignia1103; sslverify=0; Option=3;MULTI_STATEMENTS=1");
+            //var conn = new OdbcConnection("DRIVER={MySQL ODBC 5.3 unicode Driver}; Server=myserver4demo.mysql.database.azure.com; Port=3306;" +
+                         //" Database=quickstartdb; Uid=myadmin@myserver4demo; Pwd=server_admin_password; sslverify=0; Option=3;MULTI_STATEMENTS=1");
 
             Console.Out.WriteLine("Opening connection");
             conn.Open();
