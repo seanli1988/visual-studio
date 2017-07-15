@@ -15,7 +15,7 @@ namespace driver
         {
 
             var conn = new OdbcConnection("DRIVER={MySQL ODBC 5.3 unicode Driver}; Server=seal-db1.mysql.database.azure.com; Port=3306;" +
-                "Database=employees; Uid=sean@seal-db1; Pwd=Insignia1103; sslverify=0; Option=3;MULTI_STATEMENTS=1");
+                "Database=employees; Uid=sean@seal-db1; Pwd=Password1; sslverify=0; Option=3;MULTI_STATEMENTS=1");
             //var conn = new OdbcConnection("DRIVER={MySQL ODBC 5.3 unicode Driver}; Server=myserver4demo.mysql.database.azure.com; Port=3306;" +
                          //" Database=quickstartdb; Uid=myadmin@myserver4demo; Pwd=server_admin_password; sslverify=0; Option=3;MULTI_STATEMENTS=1");
 
