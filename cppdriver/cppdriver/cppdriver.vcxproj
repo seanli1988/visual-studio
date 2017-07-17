@@ -146,6 +146,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="cppdriver - create.cpp" />
+    <ClCompile Include="cppdriver - delete.cpp" />
+    <ClCompile Include="cppdriver - read.cpp" />
+    <ClCompile Include="cppdriver - update.cpp" />
     <ClCompile Include="cppdriver.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
