@@ -14,7 +14,7 @@ namespace csharpcon
         protected void Page_Load(object sender, EventArgs e)
         {
             string myConnectionString;
-              myConnectionString = "DRIVER={MySQL ODBC 5.3 unicode Driver}; Server=seal-db1.mysql.database.azure.com; Port=3306; Database=employees; Uid=sean@seal-db1; Pwd=Insignia1103; sslverify=0; Option=3;";
+              myConnectionString = "DRIVER={MySQL ODBC 5.3 unicode Driver}; Server=seal-db1.mysql.database.azure.com; Port=3306; Database=employees; Uid=sean@seal-db1; Pwd=Password1; sslverify=0; Option=3;";
           //  myConnectionString = "DNS=sysdsn; Uid=sean@seal-db1; Pwd=Insignia1103; sslverify=0; Option=3;";
             OdbcConnection MyConnection = null;
             try
