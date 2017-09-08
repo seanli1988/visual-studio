@@ -1,0 +1,6 @@
+C:\Users\sean\Documents\Visual Studio 2017\Projects\visual-studio\MySQLLoadGen\MySQLLoadGen\bin\Debug\MySQLLoadGen.exe.config
+C:\Users\sean\Documents\Visual Studio 2017\Projects\visual-studio\MySQLLoadGen\MySQLLoadGen\bin\Debug\MySQLLoadGen.exe
+C:\Users\sean\Documents\Visual Studio 2017\Projects\visual-studio\MySQLLoadGen\MySQLLoadGen\bin\Debug\MySQLLoadGen.pdb
+C:\Users\sean\Documents\Visual Studio 2017\Projects\visual-studio\MySQLLoadGen\MySQLLoadGen\obj\Debug\MySQLLoadGen.csprojResolveAssemblyReference.cache
+C:\Users\sean\Documents\Visual Studio 2017\Projects\visual-studio\MySQLLoadGen\MySQLLoadGen\obj\Debug\MySQLLoadGen.exe
+C:\Users\sean\Documents\Visual Studio 2017\Projects\visual-studio\MySQLLoadGen\MySQLLoadGen\obj\Debug\MySQLLoadGen.pdb
